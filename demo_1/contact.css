@@ -1,0 +1,27 @@
+.r1{
+    background-color: antiquewhite;
+}
+
+.fi{
+text-decoration: none;
+  padding: 10px; 
+  margin: 10px;
+  color:blue;
+  background-color: white;
+}
+.g1{
+  background-color: black;
+  color: aliceblue;
+}
+#control_home{
+  
+  background-repeat:no-repeat;  
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}   
+    
+.m1{
+  background-color: orange;
+  color: blue;
+}

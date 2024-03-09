@@ -1,0 +1,79 @@
+.h1{
+  text-align: center;  
+  text-decoration-line: underline;
+  
+}
+.h2{
+  text-align:center;
+  text-decoration-line: underline;
+}
+ .d1{
+  overflow-x: hidden;
+  background-color:bisque ;
+  
+}
+
+@media screen and (min-width:992px){
+    .nav-item {
+    line-height:80px;
+    }
+  }
+  .a1{
+    padding: 20px;
+    
+  }
+  .b1{
+    padding: 40px;
+    border-radius: 1%;
+   background-color:azure;  
+  }
+  .e1{
+  
+      background-image: linear-gradient(
+        35deg,
+        #553c9a 0%,
+        #553c9a 20%,
+        #b393d3 20%,
+        #b393d3 40%,
+        #553c9a 40%,
+        #553c9a 60%,
+        #b393d3 60%,
+        #b393d3 80%,
+        #553c9a 80%,
+        #553c9a 100%
+      );
+    }
+  
+  .map-container{
+    overflow:hidden;
+    position:relative;
+    height:0;
+    
+    }
+   .map1{
+    padding-bottom: 20px;
+   }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    body{
+      background:white;
+    }
+.fi{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+  color: black;
+}
+    
+.ft{
+  background-color: black;
+  color: black;
+}
+

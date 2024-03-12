@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+/* 
+rolling text */
+
+.wrapper.four {
+    font-size: 3rem;
+    font-family: "Play", sans-serif;
+}
+.four .type{
+    padding: 2rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.four h3 {
+    width: 17ch;
+    border-right: 4px solid black;
+    margin: 2rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 .h1{
   text-align: center;  
   text-decoration-line: underline;

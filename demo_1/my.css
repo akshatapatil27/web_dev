@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
+
+.maindiv{
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);
+}
+
+
+
 /* 
 rolling text */
 
@@ -9,7 +18,7 @@ rolling text */
 }
 
 .four .head1 {
-    width: 17ch;
+    width: 17.5ch;
     border-right: 4px solid black;
     margin: 2rem auto;
     white-space: nowrap;
@@ -43,7 +52,7 @@ rolling text */
 }
  .d1{
   overflow-x: hidden;
-  background-color:bisque ;
+  
   
 }
 
@@ -59,24 +68,31 @@ rolling text */
   }
   .b1{
     padding: 40px;
-    border-radius: 1%;
-   background-color:azure;  
-  }
-  .e1{
-  
+    border-radius: 2%;
+    background: linear-gradient(to top, #d8ced5 0%, #fef9d7 100%);
+      }
+
+      
+    .e1{  
       background-image: linear-gradient(
-        35deg,
-        #553c9a 0%,
-        #553c9a 20%,
-        #b393d3 20%,
-        #b393d3 40%,
-        #553c9a 40%,
-        #553c9a 60%,
-        #b393d3 60%,
-        #b393d3 80%,
-        #553c9a 80%,
-        #553c9a 100%
+        45deg,
+        #ffc107 0%,
+        #e5d194 20%,
+        #edc650 20%,
+        #f3d16c 40%,
+        #ffc107 40%,
+        #decfa4 60%,
+        #dfd7bc 60%,
+        #ffc107 80%,
+        #e5cd85 80%,
+        #ffc107 100%
       );
+      height: 100%;
+      border-radius: 4%;
+    }
+
+    .e11{
+      height: 100%;
     }
   
   .map-container{
@@ -95,9 +111,7 @@ rolling text */
     width:100%;
     position:absolute;
     }
-    body{
-      background:white;
-    }
+    
     
 .fi{
   text-decoration: none;

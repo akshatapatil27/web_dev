@@ -90,6 +90,11 @@ rolling text */
     width: 100%;
     height: 100%;
   }
+  .carousel1{
+    
+    border-radius: 3%;
+    box-shadow: 0 8px 13px rgba(219, 51, 51, 0.3);
+  }
   .b1{
     padding: 40px;
     border-radius: 2%;

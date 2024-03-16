@@ -68,10 +68,11 @@ body{
 
 .box {
     height: 355px;
+    width: 500px;
     border: none; 
     position: relative;
     background-color: rgb(134, 84, 204);
-    margin: 50px;
+    margin: 10px;
   }
   
   .box1:hover {
@@ -84,5 +85,8 @@ body{
     margin: 10px;
   }
   .av{
-    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

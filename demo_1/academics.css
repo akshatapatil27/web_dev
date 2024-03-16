@@ -64,3 +64,25 @@ body{
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
+
+
+.box {
+    height: 355px;
+    border: none; 
+    position: relative;
+    background-color: rgb(134, 84, 204);
+    margin: 50px;
+  }
+  
+  .box1:hover {
+    background: linear-gradient(to top, #696fc2 0%, #fef9d7 100%);
+  }
+  .box1{
+    border-radius: 5%;
+    background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+    margin: 10px;
+  }
+  .av{
+    
+  }

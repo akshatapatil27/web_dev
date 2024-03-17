@@ -39,6 +39,91 @@
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
   margin: 10px;
 }
+
+
+
+.container1{
+	max-width: 1000px;
+	margin: auto;
+}
+.gallery{
+	width: 100%;
+	float: left;
+	padding:30px 15px;
+}
+.gallery .title h1{
+	font-size:36px;
+	margin:0 0 30px;
+	color:#000000;
+	text-align: center;
+}
+.gallery .gallery-items .item{
+	float: left;
+	width:25%;
+	position: relative;
+}
+.gallery .gallery-items .item.hide{
+	display: none;
+}
+.gallery .gallery-items .item.show{
+	display: block;
+	animation: show .5s ease;
+}
+@keyframes show{
+    0%{
+    	opacity:0;
+    	transform: scale(0.9);
+    }
+    100%{
+    	opacity:1;
+    	transform: scale(1);
+    }
+}
+
+
+.gallery .gallery-items .item img{
+	width: 100%;
+	display: block;
+}
+.gallery .gallery-items .item .caption{
+	position: absolute;
+	left:0px;
+	bottom:0;
+	background-color: rgba(0,0,0,.5);
+	padding:10px;
+	width: 100%;
+	color:#ffffff;
+	text-align: center;
+}
+.gallery .pagination{
+	width: 100%;
+	float: left;
+	padding:15px;
+	text-align: center;
+}
+.gallery .pagination div{
+	display: inline-block;
+	margin:0 10px;
+}
+.gallery .pagination .page{
+	color:gray;
+}
+.gallery .pagination .prev,.gallery .pagination .next{
+ color:#000;
+ border:1px solid #000;
+ font-size:15px;
+ padding:7px 15px;
+ cursor: pointer;
+}
+
+.gallery .pagination .prev.disabled,
+.gallery .pagination .next.disabled{
+	border-color: gray;
+	color:gray;
+	pointer-events: none;
+}
+
+
 </style>
   </head>
   <!-- <body>
@@ -135,6 +220,277 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col">
+    <div class="container-fluid">
+      <section class="gallery">
+	<div class="container1">
+		<div class="title">
+			<h1>Gallery</h1>
+		</div>
+		<div class="gallery-items">
+			<div class="item">
+				<img src="images/1.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/2.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/3.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/4.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/5.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/6.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/7.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/8.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/9.jpg" alt="gallery" />
+			</div>
+			<div class="item">
+				<img src="images/10.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/11.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/12.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/13.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/14.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/15.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/16.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/17.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/18.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/19.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/20.jpg" alt="gallery" />
+
+			</div>
+			<div class="item">
+				<img src="images/20.jpg" alt="gallery" />
+
+			</div>
+		</div>
+		<div class="pagination">
+			<div class="prev">Prev</div>
+			<div class="page">Page <span class="page-num"></span></div>
+			<div class="next">Next</div>
+		</div>
+	</div>
+</section>
+    </div></div>
+  <div class="col">photo</div></div>
+
+
+
+
+
+
+
+
+
+
+  <div class="row">
+    <div class="col">
+  <div class="container-fluid">
+    <section class="gallery">
+<div class="container1">
+  <div class="title">
+    <h1>Gallery</h1>
+  </div>
+  <div class="gallery-items">
+    <div class="item">
+      <img src="images/1.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/2.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/3.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/4.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/5.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/6.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/7.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/8.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/9.jpg" alt="gallery" />
+    </div>
+    <div class="item">
+      <img src="images/10.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/11.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/12.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/13.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/14.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/15.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/16.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/17.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/18.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/19.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/20.jpg" alt="gallery" />
+
+    </div>
+    <div class="item">
+      <img src="images/20.jpg" alt="gallery" />
+
+    </div>
+  </div>
+  <div class="pagination">
+    <div class="prev">Prev</div>
+    <div class="page">Page <span class="page-num"></span></div>
+    <div class="next">Next</div>
+  </div>
+</div>
+</section>
+  </div></div>
+<div class="col">photo</div></div>  
+
+<script>
+   
+ const galleryItems=document.querySelector(".gallery-items").children;
+ const prev=document.querySelector(".prev");
+ const next=document.querySelector(".next");
+ const page=document.querySelector(".page-num");
+ const maxItem=8;
+ let index=1;
+  
+  const pagination=Math.ceil(galleryItems.length/maxItem);
+  console.log(pagination)
+
+  prev.addEventListener("click",function(){
+    index--;
+    check();
+    showItems();
+  })
+  next.addEventListener("click",function(){
+  	index++;
+  	check();
+    showItems();  
+  })
+
+  function check(){
+  	 if(index==pagination){
+  	 	next.classList.add("disabled");
+  	 }
+  	 else{
+  	   next.classList.remove("disabled");	
+  	 }
+
+  	 if(index==1){
+  	 	prev.classList.add("disabled");
+  	 }
+  	 else{
+  	   prev.classList.remove("disabled");	
+  	 }
+  }
+
+  function showItems() {
+  	 for(let i=0;i<galleryItems.length; i++){
+  	 	galleryItems[i].classList.remove("show");
+  	 	galleryItems[i].classList.add("hide");
+
+
+  	    if(i>=(index*maxItem)-maxItem && i<index*maxItem){
+  	 	  // if i greater than and equal to (index*maxItem)-maxItem;
+  		  // means  (1*8)-8=0 if index=2 then (2*8)-8=8
+          galleryItems[i].classList.remove("hide");
+          galleryItems[i].classList.add("show");
+  	    }
+  	    page.innerHTML=index;
+  	 }
+
+  	 	
+  }
+
+  window.onload=function(){
+  	showItems();
+  	check();
+  }
+
+
+
+
+
+
+
+
+
+</script>
   </body>
 
 </html>

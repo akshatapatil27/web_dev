@@ -1,0 +1,62 @@
+.navbar-custom {
+    background-color: #3ed5b9; /* Custom background color */
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+    color: #767a12; /* Custom text color */
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    color: #25127a; /* Custom text color */
+  }
+
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #a2d659; /* Custom text color on hover */
+  }
+
+  
+  #home{
+    background-image:url('rr.jpg');
+    background-repeat:no-repeat;  
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .img1{
+    width: 100px;
+  }
+
+  #library_home{
+    background-image:url('r6.jpeg');
+    background-repeat:no-repeat;  
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  #control_home{
+    background-image:url('rj.jpg');
+    background-repeat:no-repeat;  
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  @media (min-width: 1200px) {
+    .container{
+        max-width:900px;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 300px;
+    }
+}
+@media (min-width: 500px) {
+    .container{
+        max-width: 290px;
+    }
+}
+#carouselExample{
+  width: 1000px;
+  height: 800px;
+}

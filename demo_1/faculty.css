@@ -1,0 +1,18 @@
+.maindiv{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);
+  }
+  
+  .fi{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    color: black;
+  }  
+  .ft{
+    background-color: black;
+    color: black;
+  }

@@ -44,6 +44,7 @@ rolling text */
 
 .box1:hover {
   background: linear-gradient(to top, #696fc2 0%, #fef9d7 100%);
+  text-align: center;
 }
 .box1{
   border-radius: 5%;

@@ -1,0 +1,75 @@
+
+  .navbar1{
+ background-color: black
+  }
+
+  /* navbar */ 
+
+
+  .divimg{
+    align-items: center;
+    padding-top: 70px; 
+    background-color: black;
+   
+  }
+
+  .divimg img{
+    width: 230vh;
+    
+    margin: auto;
+    display: block;
+  }
+
+  .review{
+    margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+
+
+
+  .map-container{
+    overflow:hidden;
+    position:relative;
+    height:0;
+    
+    }
+    .map1{
+      padding: 20px;
+    }
+   .map2{
+    padding-bottom: 20px;
+    border-radius: 1%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+   }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+
+
+    .fi{
+      text-decoration: none;
+      padding: 10px;
+      background-color: white;
+      margin: 10px;
+      border-radius: 50%;
+      color: black;
+    }
+        
+    .ft{
+      background-color: black;
+      color: black;
+    }
+    .cpright{
+      color: white;
+    }
